@@ -1,7 +1,7 @@
 body {
-  /* background-image: url(../imgaes/background.jpg); */
+  background-image: url(../imgaes/background.jpg);
   direction: rtl;
-  /* background-size: cover; */
+  background-size: cover;
 }
 #backgroundDiv {
   background-color: rgba(255, 255, 255, 0.479);
