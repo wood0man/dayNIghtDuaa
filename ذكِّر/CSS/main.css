@@ -1,0 +1,32 @@
+body {
+  /* background-image: url(../imgaes/background.jpg); */
+  direction: rtl;
+  /* background-size: cover; */
+}
+#backgroundDiv {
+  background-color: rgba(255, 255, 255, 0.479);
+}
+h1 {
+  text-align: center;
+  border-color: blanchedalmond;
+}
+#dakker {
+  color: gold;
+  text-shadow: 40, 40, 5, gold;
+}
+#moon {
+  /* float: left;
+  position: absolute; */
+  /* left: 0px; */
+  width: 50%;
+  height: 100%;
+  /* z-index: 1; */
+}
+#sun {
+  /* float: left;
+  position: absolute;
+  left: 844px; */
+  width: 50%;
+  height: 100%;
+  /* z-index: 1; */
+}
