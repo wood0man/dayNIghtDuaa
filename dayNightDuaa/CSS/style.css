@@ -30,3 +30,25 @@ h1 {
   height: 100%;
   /* z-index: 1; */
 }
+
+.jumbotron {
+  background-color: rgba(128, 128, 128, 0.596);
+}
+#nightText {
+  text-align: center;
+  font-size: xx-large;
+  color: whitesmoke;
+  transition: 2s;
+}
+#nightText {
+  font-size: xx-large;
+  transition: 2s;
+}
+#nightText #moonPic:hover {
+  size: 1500px;
+}
+#dayText {
+  text-align: center;
+  font-size: xx-large;
+  color: whitesmoke;
+}
