@@ -52,23 +52,3 @@ body {
   margin: auto;
   height: 100%;
 }
-.iintro__img {
-}
-.intro__night {
-}
-.dayNightText__ {
-  text-align: center;
-  font-size: xx-large;
-  color: whitesmoke;
-  transition: 0.5s;
-}
-
-.dayText {
-  color: wheat;
-  font-size: 45px;
-}
-
-.nightText {
-  font-size: 45px;
-  color: rgb(5, 5, 21);
-}
