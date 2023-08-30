@@ -6,29 +6,18 @@ body {
 #backgroundDiv {
   background-color: rgba(255, 255, 255, 0.479);
 }
-/* h1 {
-  text-align: center;
-  border-color: blanchedalmond;
-} */
+
 #dakker {
   color: gold;
   text-shadow: 40, 40, 5, gold;
 }
 #moon {
-  /* float: left;
-  position: absolute; */
-  /* left: 0px; */
   width: 50%;
   height: 100%;
-  /* z-index: 1; */
 }
 #sun {
-  /* float: left;
-  position: absolute;
-  left: 844px; */
   width: 50%;
   height: 100%;
-  /* z-index: 1; */
 }
 
 .jumbotron {
@@ -55,4 +44,31 @@ body {
 #sunPic:hover ~ #dayText {
   font-size: 45px;
   color: wheat;
+}
+#blackBackground {
+  color: rgba(0, 0, 0, 0.664);
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  height: 100%;
+}
+.iintro__img {
+}
+.intro__night {
+}
+.dayNightText__ {
+  text-align: center;
+  font-size: xx-large;
+  color: whitesmoke;
+  transition: 0.5s;
+}
+
+.dayText {
+  color: wheat;
+  font-size: 45px;
+}
+
+.nightText {
+  font-size: 45px;
+  color: rgb(5, 5, 21);
 }
