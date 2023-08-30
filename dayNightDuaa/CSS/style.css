@@ -6,10 +6,10 @@ body {
 #backgroundDiv {
   background-color: rgba(255, 255, 255, 0.479);
 }
-h1 {
+/* h1 {
   text-align: center;
   border-color: blanchedalmond;
-}
+} */
 #dakker {
   color: gold;
   text-shadow: 40, 40, 5, gold;
@@ -32,23 +32,27 @@ h1 {
 }
 
 .jumbotron {
-  background-color: rgba(128, 128, 128, 0.596);
+  background-color: rgba(128, 128, 128, 0.045);
 }
 #nightText {
   text-align: center;
   font-size: xx-large;
   color: whitesmoke;
-  transition: 2s;
+  transition: 0.5s;
 }
-#nightText {
-  font-size: xx-large;
-  transition: 2s;
-}
-#nightText #moonPic:hover {
-  size: 1500px;
+
+#moonPic:hover ~ #nightText {
+  font-size: 45px;
+  color: rgb(5, 5, 21);
 }
 #dayText {
   text-align: center;
   font-size: xx-large;
   color: whitesmoke;
+  transition: 0.5s;
+}
+
+#sunPic:hover ~ #dayText {
+  font-size: 45px;
+  color: wheat;
 }
